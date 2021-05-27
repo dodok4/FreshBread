@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KullaniciEkrani">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <Button
+            android:id="@+id/btn_bakiyeyukle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BAKİYE YÜKLEME "
+            android:background="@color/colorAccent"
+            />
+
+        <Button
+            android:id="@+id/btn_siparisver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SİPARİŞ VER"
+            android:background="@color/colorAccent"
+            />
+
+        <Button
+            android:id="@+id/btn_geriiade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GERİ İADE"
+            android:background="@color/colorAccent"
+            />
+
+        <Button
+            android:id="@+id/btn_paratransferi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BAKİYE TRANSFERİ"
+            android:background="@color/colorAccent"
+            />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
